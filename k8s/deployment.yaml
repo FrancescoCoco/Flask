@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: webflask-deployment
+  labels:
+    app: webflask
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: webflask
+  template:
+    metadata:
+      labels:
+        app: webflask
+    spec:
+      containers:
+      - name: webflask
+        image: webflask:2.0
+        ports:
+        - containerPort: 5000
