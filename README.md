@@ -1,31 +1,4 @@
-  #  Flask
-  
-Example of microservice in **Python** using **Flash mini-framework** **dockerized** and deployed to **Kubernetes** with helm template
-
-### Prerequisities 
-
-> Install python3 
-
-> Install Venv 
-    
-   
-   See documentation [virtual environment](https://docs.python.org/3/library/venv.html)
-
-    python3 -m venv virtual-env
-  
-  It is important to isolate the project 
-   
-
-> Use VSCode 
-
-Install extension for python
-
-> Flask
-
-See documentation [Flask](https://flask.palletsprojects.com/en/2.2.x/)
-
-    pip3 install Flask
-  #  Flask
+#  Flask
   
 Example of microservice in **Python** using **Flash mini-framework** **dockerized** and deployed to **Kubernetes** with helm template
 
